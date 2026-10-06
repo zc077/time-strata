@@ -1,0 +1,17 @@
+{
+  "name": "time-strata",
+  "version": "1.0.0",
+  "description": "时间地层：番剧、书籍、影视与游戏的个人作品档案",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
